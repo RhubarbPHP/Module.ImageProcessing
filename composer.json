@@ -1,0 +1,34 @@
+{
+  "name": "rhubarbphp/module-image-processing",
+  "description": "Provides functionality for Image Processing",
+  "keywords": [
+    "rhubarb",
+    "rhubarb-php",
+    "php",
+    "image",
+    "processing"
+  ],
+  "homepage": "http://www.rhubarbphp.com/",
+  "license": "Apache-2.0",
+  "autoload": {
+    "psr-4": {
+      "Rhubarb\\ImageProcessing\\": "src/",
+      "Rhubarb\\ImageProcessing\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "bin-dir": "bin/"
+  },
+  "require": {
+    "rhubarbphp/rhubarb": "1.0.*-dev"
+  },
+  "require-dev": {
+    "codeception/codeception": "2.1.4",
+    "rhubarbphp/custard": ">1.0",
+    "phpmd/phpmd": "*",
+    "squizlabs/php_codesniffer": "*",
+    "sebastian/phpcpd": "*",
+    "rhubarbphp/module-build-status-updater": "dev-debug as 1.0.3",
+    "tan-tan-kanarek/github-php-client": "dev-master as 1.0"
+  }
+}
