@@ -33,7 +33,7 @@ class ImageMetrics
 	{
 		$this->sourcePath = $path;
 
-		$this->getSourceDetails();
+		$this->setSourceDetails();
 
 		$this->focalPercentageX = 50;
 		$this->focalPercentageY = 50;
