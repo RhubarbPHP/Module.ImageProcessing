@@ -27,7 +27,7 @@ abstract class CommunicationTestCase extends Test
         $email = new SimpleEmail();
         $email->setSubject("The three billy goats");
         $email->addRecipient("john.smith@outlook.com", "John Smith");
-        $email->setSender("jane.smith@outlook.com", "Jane Smith" );
+        $email->setSender("jane.smith@outlook.com", "Jane Smith");
         $email->setText("Michael went to mow, went to mow a meadow.");
         $email->setHtml("<p>Michael went to mow, went to mow a meadow.</p>");
 
