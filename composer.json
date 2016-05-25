@@ -20,7 +20,7 @@
     "bin-dir": "bin/"
   },
   "require": {
-    "rhubarbphp/rhubarb": "1.0.*-dev"
+    "rhubarbphp/rhubarb": "*"
   },
   "require-dev": {
     "codeception/codeception": "2.1.4",
